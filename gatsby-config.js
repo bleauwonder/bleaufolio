@@ -1,11 +1,11 @@
 let siteMetadata = {
-	title: `Elemental`,
+	title: `Elyza Bleau`,
 	capitalizeTitleOnHome: true,
 	logo: `/images/logo.png`,
 	icon: `/images/icon.png`,
-	titleImage: `/images/wall.jpg`,
-	introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-	description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
+	titleImage: `/images/sunset.jpg`,
+	introTag: `FULL-STACK DEVELOPER | PHOTOGRAPHER`,
+	description: `Renaissance Woman making beautiful photos and designs functional for end users.`,
 	author: `@_akzhy`,
 	blogItemsPerPage: 10,
 	portfolioItemsPerPage: 10,
@@ -19,12 +19,12 @@ let siteMetadata = {
 			url: "/about"
 		},
 		{
-			name: "BLOG",
-			url: "/blog"
-		},
-		{
 			name: "PORTFOLIO",
 			url: "/portfolio"
+		},
+		{
+			name: "BLOG",
+			url: "/blog"
 		},
 		{
 			name: "CONTACT",
@@ -36,33 +36,33 @@ let siteMetadata = {
 		url: "/privacy-policy"
 	}],
 	social: [{
-			name: "Facebook",
-			icon: "/images/Facebook.svg",
-			url: "#"
+			name: "LinkedIn",
+			icon: "/images/LinkedIn.png",
+			url: "https://www.linkedin.com/in/elyzableau/"
 		},
 		{
-			name: "Twitter",
-			icon: "/images/Twitter.svg",
-			url: "#"
+			name: "GitHub",
+			icon: "/images/github.png",
+			url: "https://github.com/bleauwonder/"
 		},
 		{
 			name: "Instagram",
 			icon: "/images/Instagram.svg",
-			url: "#"
+			url: "https://www.instagram.com/worldofbleau/"
 		},
-		{
-			name: "Youtube",
-			icon: "/images/Youtube.svg",
-			url: "#"
-		}
+		// {
+		// 	name: "Youtube",
+		// 	icon: "/images/Youtube.svg",
+		// 	url: "#"
+		// }
 	],
 	contact: {
 		api_url: "./test.json",
 		/* Leave this completely empty (no space either) if you don't want a contact form. */
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-		mail: "hi@akzhy.com",
-		phone: "000-000-0000",
-		address: "1234 \nLocation \nLocation"
+		description: `Let's Connect`,
+		mail: "elyzableau.om@gmail.com",
+		phone: "310-890-2381",
+		address: "New York, NY"
 	}
 }
 

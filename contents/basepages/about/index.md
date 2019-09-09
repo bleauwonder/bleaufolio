@@ -1,9 +1,11 @@
 ---
 title: About
 template: basepage
-image: ./image.png
+image: ./September_Self-6.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Elyza Bleau is what is truly called a Renaissance Woman. She's an accomplished musician, who started her career in college honing her craft of classical French horn and singing musical theatre tunes. But after 11 years of french horn and music theory, she dropped it all to sing rock n’ roll and jam on her tenor ukulele. The pulses of distortion kept ringing in her ear, and she's been enjoying rocking out on a good old Truetone from the 60s ever since.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Elyza is also moving from programming tinkerer to full-time Front-End Web Developer while studying at Columbia University. With poise and stellar communication honed over years of teaching, acting, design, and writing mixed with a focus on JavaScript, CSS, HTML, and Node.js, she takes an end-user approach to creating a web environment that can help everyone feel engaged. Follow-through, attention to detail, and a passion for collaboration keep her excited to solve problems and stay creative.
+
+When she’s not analyzing the ERP at a nonprofit or coding like a mad woman, Elyza can be seen step dancing or doing yoga everywhere around NYC, flying on a trapeze, on another new adventure, or getting intimate with strangers with street photography.

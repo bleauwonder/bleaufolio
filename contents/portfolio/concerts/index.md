@@ -1,54 +1,51 @@
 ---
-title: Concerts
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-date: 2019-06-28
+title: Games
+description: Simple and fun games to play
+date: 2019-09-08
 template: portfolio
-image: ./image.jpg
+image: ./Connection_Camp-36.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Games are partly what drew me to dive into programming. Creating the trivia, themes, and javascript logic are all part of the fun. 
 
 [row]
 [col]
-![image](./b1.jpg)
+![image](./ArtDeco-game.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+A React game enhanced by Bootstrap, CSS, and Javascript. See if you can earn the most travel points!
+
+Tech: React, Bootstrap, CSS, Javascript
 
 [/col]
 [col]
-![image](./b2.jpg)
+![image](./Sun_logo.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Test your Trivia Skills about the famous Sun Records label! 
+
+Tech: HTML, CSS and Javascript
 
 [/col]
 [/row]
 
 [row]
 [col]
-![image](./w1.jpg)
+![image](./Hellgate-hot-sauce.jpeg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Test your skills against the computer in a peppery game like 21. 
+
+Tech: HTML, CSS, Javascript 
 
 [/col]
 [/row]
 
 [row]
 [col]
-![image](./l1.jpg)
+![image](./South_Park_Aliens.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+An Alien-themed Word Guess game. Dive back in like Molder and Skully to see what you know.   
 
-[/col]
-[col]
-![image](./l2.jpg)
+Tech: HTML, CSS, Javascript 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-[/col]
-[col]
-![image](./l3.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
 
 [/col]
 [/row]
