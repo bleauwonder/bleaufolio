@@ -1,8 +1,9 @@
 # Elyza Bleau's Development Portfolio
 
 ### Elyza Bleau's portfolio of current projects! 
-
-
+------------------------------------------------------------------------------------------------
+![Bleaufolio screenshot](./static/images/Bleaufolio-screenshot.png)
+------------------------------------------------------------------------------------------------
 #### When I first started this portfolio, it was just front end (HTML5 and CSS). As I learn more about full-stack development, I added routing and the use of Express to host it myself on Heroku. I also added a touch of Javascript, which will keep growing as I stay a life-long learner of code. I love CSS and Javascript together most, but it's exciting to use node.js and express and creating API routes. Then I redid it completely!
 
 #### The portfolio page shows a mix of technologies including:
