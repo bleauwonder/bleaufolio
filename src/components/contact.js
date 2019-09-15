@@ -109,7 +109,7 @@ class Contact extends React.Component{
 				<div className={ "row"+(this.showContactForm ? "" : " no-form")} ref={c => this.contactArea = c}>
 					{ this.showContactForm &&
 					<div className="col s12 m6">
-						<form>
+						<form method="POST" data-netlify="true">
 							<div className="field">
 								<label>
 									<span className="label text-tertiary">Name</span>
