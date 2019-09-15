@@ -110,6 +110,7 @@ class Contact extends React.Component{
 					{ this.showContactForm &&
 					<div className="col s12 m6">
 						<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+						<input type="hidden" name="form-name" value="contact" />
 							<div className="field">
 								<label>
 									<span className="label text-tertiary">Name</span>
@@ -134,7 +135,6 @@ class Contact extends React.Component{
 									</div>
 								</label>
 							</div>
-							<input type="hidden" name="form-name" value="contact" />
 							<div className="field">
 								<label className="ib">
 									<button className={"btn"+(this.state.submitDisabled ? " disabled" : "")} onClick={this.handleSubmit} id="submit" ref={c => this.btn = c}>SEND <span className="icon paper-plane"  style={{ display: (this.state.submitDisabled ? "none" : "inline-block") }}>
