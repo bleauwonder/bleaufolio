@@ -2,7 +2,7 @@
 title: Columbia Alum
 date: 2019-09-28
 template: blog
-image: ./image.jpg
+image: ./Columbia-Grad.jpg
 banner: ./banner.jpg
 description: I graduated!
 ---
