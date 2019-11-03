@@ -7,7 +7,7 @@ banner: ./banner.jpg
 description: I graduated!
 ---
 
-![image](./image.jpg)
+![image](./Columbia-Grad.jpg)
 
 I did it! I graduated from Columbia University with a certificate in Full-Stack Web Development! 
 
