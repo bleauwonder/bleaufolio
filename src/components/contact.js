@@ -58,7 +58,7 @@ class Contact extends React.Component{
 						this.resMessage.innerHTML = "There was an error in sending the message"
 						this.resMessage.classList.add("color-error")
 					} else{
-						this.resMessage.innerHTML = "Message sent succesfully"
+						this.resMessage.innerHTML = "Message sent successfully"
 						this.resMessage.classList.remove("color-error")
 					}
 					this.dataName.value = "";
@@ -70,7 +70,7 @@ class Contact extends React.Component{
 					},5000)
 	        	},
 		        (error) => {
-					this.resMessage.innerHTML = "Message sent succesfully"
+					this.resMessage.innerHTML = "Message sent successfully"
 					this.resMessage.classList.remove("color-error")
 		          	this.setState({
 		            	submitDisabled: false
@@ -137,7 +137,7 @@ class Contact extends React.Component{
 							</div>
 							<div className="field">
 								<label className="ib">
-									<button className={"btn"+(this.state.submitDisabled ? " disabled" : "")} onClick={this.handleSubmit} id="submit" ref={c => this.btn = c}>SEND <span className="icon paper-plane"  style={{ display: (this.state.submitDisabled ? "none" : "inline-block") }}>
+									<button className={"btn"+(this.state.submitDisabled ? " disabled" : "")} onClick={this.handleSubmit} id="submit" ref={c => this.btn = c}>X Please email directly <span className="icon paper-plane"  style={{ display: (this.state.submitDisabled ? "none" : "inline-block") }}>
 										<PaperPlane/>
 									</span>
 									<span className="icon loading" style={{ display: (!this.state.submitDisabled ? "none" : "inline-block") }}>
