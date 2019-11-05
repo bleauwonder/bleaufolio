@@ -1,7 +1,7 @@
 ---
 title: Resume
 description: Elyza Bleau's Tech Resume
-date: 2019-09-18
+date: 2019-11-05
 template: portfolio
 image: ./blurLaptop.jpg
 ---
