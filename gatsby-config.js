@@ -22,8 +22,12 @@ let siteMetadata = {
 			name: "PORTFOLIO",
 			url: "/portfolio"
 		},
-	],
 
+	],
+	footerLinks: [{
+		name: "Email Me",
+		url: "mailto:elyzableau.om@gmail.com"
+	}],
 	social: [{
 			name: "LinkedIn",
 			icon: "/images/LinkedIn.png",
