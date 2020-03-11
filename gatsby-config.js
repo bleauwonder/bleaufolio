@@ -43,6 +43,11 @@ let siteMetadata = {
 			icon: "/images/Instagram.svg",
 			url: "https://www.instagram.com/worldofbleau/"
 		},
+		{
+			name: "Email",
+			icon: "/images/google-gmail-seeklogo.com.svg",
+			url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=elyzableau.om@gmail.com"
+		},
 		// {
 		// 	name: "Youtube",
 		// 	icon: "/images/Youtube.svg",
