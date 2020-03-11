@@ -23,6 +23,7 @@ let siteMetadata = {
 			url: "/portfolio"
 		},
 	],
+
 	social: [{
 			name: "LinkedIn",
 			icon: "/images/LinkedIn.png",
@@ -47,10 +48,10 @@ let siteMetadata = {
 	contact: {
 		api_url: "./test.json",
 		/* Leave this completely empty (no space either) if you don't want a contact form. */
-		description: ``,
-		mail: "",
-		phone: "",
-		address: ""
+		description: `Let's Connect`,
+		mail: "elyzableau.om@gmail.com",
+		phone: "310-890-2381",
+		address: "New York, NY"
 	}
 }
 
