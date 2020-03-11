@@ -22,7 +22,10 @@ let siteMetadata = {
 			name: "PORTFOLIO",
 			url: "/portfolio"
 		},
-
+		{
+			name: "PHOTOGRAPHY",
+			url: "/photography"
+		},
 	],
 	footerLinks: [{
 		name: "elyzableau@gmail.com | 310-890-2381",
