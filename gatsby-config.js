@@ -5,7 +5,9 @@ let siteMetadata = {
 	icon: `/images/icon.png`,
 	titleImage: `/images/sunset.jpg`,
 	introTag: `FULL-STACK DEVELOPER | PHOTOGRAPHER`,
-	description: `Renaissance Woman making beautiful photos and designs functional for end users.`,
+	description: `Renaissance Woman taking beautiful photos and making designs functional for end users.`,
+	description: `Let's Connect`,
+	description: `310-890-2381 | elyzableau@gmail.com`,
 	author: `@_akzhy`,
 	blogItemsPerPage: 10,
 	portfolioItemsPerPage: 10,
@@ -22,19 +24,7 @@ let siteMetadata = {
 			name: "PORTFOLIO",
 			url: "/portfolio"
 		},
-		{
-			name: "BLOG",
-			url: "/blog"
-		},
-		{
-			name: "CONTACT",
-			url: "/contact"
-		}
 	],
-	footerLinks: [{
-		name: "PRIVACY POLICY",
-		url: "/privacy-policy"
-	}],
 	social: [{
 			name: "LinkedIn",
 			icon: "/images/LinkedIn.png",
@@ -59,10 +49,10 @@ let siteMetadata = {
 	contact: {
 		api_url: "./test.json",
 		/* Leave this completely empty (no space either) if you don't want a contact form. */
-		description: `Let's Connect`,
-		mail: "elyzableau.om@gmail.com",
-		phone: "310-890-2381",
-		address: "New York, NY"
+		description: ``,
+		mail: "",
+		phone: "",
+		address: ""
 	}
 }
 
