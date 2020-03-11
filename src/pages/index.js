@@ -76,7 +76,7 @@ class IndexPage extends React.Component{
 								{this.props.data.site.siteMetadata.capitalizeTitleOnHome ? this.props.data.site.siteMetadata.title.toUpperCase() : this.props.data.site.siteMetadata.title}
 								<pattern id="wallPattern" patternUnits="userSpaceOnUse" width="100" height="100">
 									<rect x="0" y="0" className="fill-primary" width="100" height="100"/>
-									<image xlinkHref="/images/wall.jpg" height="100" width="100" y="0" preserveAspectRatio="none"></image>
+									<image xlinkHref="/images/sunset.jpg" height="100" width="100" y="0" preserveAspectRatio="none"></image>
 								</pattern>
 								<text fill="url(#wallPattern)" textAnchor="middle" x="50" y="50">{this.props.data.site.siteMetadata.capitalizeTitleOnHome ? this.props.data.site.siteMetadata.title.toUpperCase() : this.props.data.site.siteMetadata.title}</text>
 							</svg>
