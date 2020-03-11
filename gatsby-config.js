@@ -26,7 +26,7 @@ let siteMetadata = {
 	],
 	footerLinks: [{
 		name: "Email Me",
-		url: "mailto:elyzableau.om@gmail.com"
+		url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=elyzableau.om@gmail.com"
 	}],
 	social: [{
 			name: "LinkedIn",
