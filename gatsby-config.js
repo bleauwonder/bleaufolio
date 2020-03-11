@@ -24,7 +24,7 @@ let siteMetadata = {
 		},
 		{
 			name: "PHOTOGRAPHY",
-			url: "/photography"
+			url: "/blog"
 		},
 	],
 	footerLinks: [{
