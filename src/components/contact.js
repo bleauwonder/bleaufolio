@@ -107,10 +107,7 @@ class Contact extends React.Component{
 					<SectionTitle title="CONTACT"/>
 				</div>
 				<div className={ "row"+(this.showContactForm ? "" : " no-form")} ref={c => this.contactArea = c}>
-					{ this.showContactForm &&
-					<div className="col s12 m6">
-					</div>
-					}
+
 					<div className={(this.showContactForm ? "col s12 m6 details" : "col s12 details")}>
 						{this.props.contact.description &&
 						<p className="text-tertiary">{this.props.contact.description}</p>
