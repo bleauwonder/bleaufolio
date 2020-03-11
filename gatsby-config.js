@@ -1,7 +1,7 @@
 let siteMetadata = {
 	title: `Elyza Bleau`,
 	capitalizeTitleOnHome: true,
-	logo: `/images/EBlogo.png`,
+	logo: `/images/EB-logo.png`,
 	icon: `/images/icon.png`,
 	titleImage: `/images/sunset.jpg`,
 	introTag: `FULL-STACK DEVELOPER | PHOTOGRAPHER`,
