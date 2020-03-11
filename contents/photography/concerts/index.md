@@ -2,7 +2,7 @@
 title: Events
 description: Photography from past events
 date: 2020-03-11
-template: portfolio
+template: photography
 image: ./Connection_Camp-36.jpg
 ---
 

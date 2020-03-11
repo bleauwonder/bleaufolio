@@ -86,13 +86,12 @@ class IndexPage extends React.Component{
 						<a href="/portfolio" className="btn">SEE DEV WORKS</a>
 						<br></br>
 						<br></br>
-						<a href="/portfolio" className="btn">SEE PHOTO WORKS</a>
+						<a href="/photography" className="btn">SEE PHOTO WORKS</a>
 					</div>
 					<div className="social-buttons">
 						<SocialLinks/>
 					</div>
 				</div>
-				<PortfolioList/>
 
 			</Layout>
 		)
