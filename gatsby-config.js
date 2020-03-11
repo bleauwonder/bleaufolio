@@ -6,8 +6,6 @@ let siteMetadata = {
 	titleImage: `/images/sunset.jpg`,
 	introTag: `FULL-STACK DEVELOPER | PHOTOGRAPHER`,
 	description: `Renaissance Woman taking beautiful photos and making designs functional for end users.`,
-	description: `Let's Connect`,
-	description: `310-890-2381 | elyzableau@gmail.com`,
 	author: `@_akzhy`,
 	blogItemsPerPage: 10,
 	portfolioItemsPerPage: 10,
