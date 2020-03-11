@@ -106,51 +106,6 @@ class Contact extends React.Component{
 				<div className="section-title">
 					<SectionTitle title="CONTACT"/>
 				</div>
-				{/* <div className={ "row"+(this.showContactForm ? "" : " no-form")} ref={c => this.contactArea = c}>
-					{ this.showContactForm &&
-					<div className="col s12 m6">
-						<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-						<input type="hidden" name="form-name" value="contact" />
-							<div className="field">
-								<label>
-									<span className="label text-tertiary">Name</span>
-									<div className="input-border">
-										<input type="text" ref={c => this.dataName = c} className="field-box" name="name" id="name" required/>
-									</div>
-								</label>
-							</div>
-							<div className="field">
-								<label>
-									<span className="label text-tertiary">Email</span>
-									<div className="input-border">
-										<input type="email" ref={c => this.dataEmail = c} className="field-box" name="email" id="email" required/>
-									</div>
-								</label>
-							</div>
-							<div className="field">
-								<label>
-									<span className="label text-tertiary">Message</span>
-									<div className="input-border">
-										<textarea style={{overflowY: "hidden"}} ref={c => this.dataMessage = c} className="field-box" onChange={this.textAreaInput} name="message" id="message" required/>
-									</div>
-								</label>
-							</div>
-							<div className="field">
-								<label className="ib">
-									<button className={"btn"+(this.state.submitDisabled ? " disabled" : "")} onClick={this.handleSubmit} id="submit" ref={c => this.btn = c}>X Please email directly <span className="icon paper-plane"  style={{ display: (this.state.submitDisabled ? "none" : "inline-block") }}>
-										<PaperPlane/>
-									</span>
-									<span className="icon loading" style={{ display: (!this.state.submitDisabled ? "none" : "inline-block") }}>
-										<Loading/>
-									</span></button>
-								</label>
-								<label>
-									<p className="res-message" ref={c => this.resMessage = c}></p>
-								</label>
-							</div>
-						</form>
-					</div> */}
-					}
 					<div className={(this.showContactForm ? "col s12 m6 details" : "col s12 details")}>
 						{this.props.contact.description &&
 						<p className="text-tertiary">{this.props.contact.description}</p>
@@ -175,7 +130,6 @@ class Contact extends React.Component{
 							<li><SocialLinks/></li>
 						</ul>
 					</div>
-				</div>
 			</section>
 		)
 
