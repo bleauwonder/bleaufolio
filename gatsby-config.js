@@ -1,8 +1,8 @@
 let siteMetadata = {
 	title: `Elyza Bleau`,
 	capitalizeTitleOnHome: true,
-	logo: `/images/eb-logo.png`,
-	icon: `/images/icon.png`,
+	logo: `/images/EBlogo.png`,
+	icon: `/images/EBlogo.png`,
 	titleImage: `/images/sunset.jpg`,
 	introTag: `FULL-STACK DEVELOPER | PHOTOGRAPHER`,
 	description: `Renaissance Woman taking beautiful photos and making designs functional for end users.`,
