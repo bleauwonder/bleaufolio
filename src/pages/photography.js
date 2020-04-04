@@ -7,8 +7,8 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Photography" />
-    <h1>Photography Works</h1>
-    <img src="../public/images/Connection_Camp-91.jpg"></img>
+    <h3>Photography Works</h3>
+    <img src="../../public/images/Connection_Camp-91.jpg"></img>
 
   </Layout>
 )
