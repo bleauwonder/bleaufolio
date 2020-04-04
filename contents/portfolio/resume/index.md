@@ -11,7 +11,7 @@ Elyza Bleau's Web Developer Resume
 [row]
 [col]
 
-[See the PDF](./Elyza-Bleau-Resume-0120.pdf "EB Tech Resume")
+[See the PDF](/Elyza-Bleau-Resume-0120-main.pdf "EB Tech Resume")
 
 [/col]
 
