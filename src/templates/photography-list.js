@@ -6,7 +6,7 @@ import SectionTitle from "../components/sectiontitle"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
 
-class PortfolioList extends React.Component {
+class PhotographyList extends React.Component {
 	render(){
 		const query = this.props.datas;
 		if(query.allMarkdownRemark.edges.length > 0){
@@ -15,7 +15,7 @@ class PortfolioList extends React.Component {
 					<div className="section-title">
 						<SectionTitle title="PHOTOGRAPHY"/>
 					</div>
-					<PortfolioItems data={query}/>
+					<PhotographyItems data={query}/>
 					<Pagination pathContext={this.props.pathContext} type="photography"/>
 				</section>
 			)
