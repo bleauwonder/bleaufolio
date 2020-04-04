@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import PortfolioItems from "../components/items-portfolio"
+import PhotographyItems from "../components/items-photography"
 import SectionTitle from "../components/sectiontitle"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
@@ -11,12 +11,12 @@ class PortfolioList extends React.Component {
 		const query = this.props.datas;
 		if(query.allMarkdownRemark.edges.length > 0){
 			return (
-				<section id="portfolio" className="container">
+				<section id="photography" className="container">
 					<div className="section-title">
-						<SectionTitle title="PORTFOLIO"/>
+						<SectionTitle title="PHOTOGRAPHY"/>
 					</div>
 					<PortfolioItems data={query}/>
-					<Pagination pathContext={this.props.pathContext} type="portfolio"/>
+					<Pagination pathContext={this.props.pathContext} type="photography"/>
 				</section>
 			)
 		}else{
@@ -32,16 +32,16 @@ class PortfolioList extends React.Component {
 export default function({ data, pathContext }){
 	return(
 		<Layout>
-			<SEO lang="en" title="Portfolio"/>
-			<PortfolioList datas={data} pathContext={pathContext}/>
+			<SEO lang="en" title="Photography"/>
+			<PhotographyList datas={data} pathContext={pathContext}/>
 		</Layout>
 	)
 }
 
 export const query = graphql `
-	query portfolioListPage($skip: Int!, $limit: Int!){
+	query photographyListPage($skip: Int!, $limit: Int!){
 		allMarkdownRemark(
-			filter: { fileAbsolutePath: {regex : "\/portfolio/"} }
+			filter: { fileAbsolutePath: {regex : "\/photography/"} }
 			sort: { fields: [frontmatter___date], order: DESC }
 			limit: $limit
 			skip: $skip
