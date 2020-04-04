@@ -1,7 +1,7 @@
 ---
 title: Street
 description: Hanging out on the street
-date: 2019-09-08
+date: 2020-04-04
 template: photography
 image: ./Connection_Camp-37.jpg
 ---

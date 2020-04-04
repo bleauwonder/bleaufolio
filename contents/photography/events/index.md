@@ -1,7 +1,7 @@
 ---
 title: Events
 description: Events
-date: 2019-09-08
+date: 2020-04-04
 template: photography
 image: ./Connection_Camp-36.jpg
 ---
