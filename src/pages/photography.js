@@ -8,7 +8,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Photography" />
     <h3>Photography Works</h3>
-    <img src="./public/images/Connection_Camp-91.jpg"></img>
+    <img src="../images/Connection_Camp-91.jpg"></img>
 
   </Layout>
 )
