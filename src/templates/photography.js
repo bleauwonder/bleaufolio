@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Date from "../components/date"
 import { Row, Col} from "../components/page-components/grid"
 import MD from "gatsby-custom-md"
-import "../style/portfolio-singlepage.less"
+import "../style/photography-singlepage.less"
 
 const components = {
 	'row':Row,
