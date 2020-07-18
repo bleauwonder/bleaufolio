@@ -85,8 +85,6 @@ class IndexPage extends React.Component{
 						<p className="caption text-tertiary">{this.props.data.site.siteMetadata.description}</p>
 						<a href="/portfolio" className="btn">SEE DEV WORKS</a>
 						<br></br>
-						<br></br>
-						<a href="/photography" className="btn">SEE PHOTO WORKS</a>
 					</div>
 					<div className="social-buttons">
 						<SocialLinks/>

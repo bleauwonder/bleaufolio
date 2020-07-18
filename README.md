@@ -1,7 +1,7 @@
 # Elyza Bleau's Development Portfolio
 
 ### Elyza Bleau's portfolio of current projects! 
-### Find the full website here: https://musing-nobel-4e8204.netlify.com/
+### Find the full website here: https://elyzableau.dev
 ------------------------------------------------------------------------------------------------
 ![Bleaufolio screenshot](./static/images/Bleaufolio-screenshot.png)
 ------------------------------------------------------------------------------------------------

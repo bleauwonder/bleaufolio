@@ -47,20 +47,6 @@ exports.createPages = ({ graphql, actions }) => {
           			}
         		}
 			  }
-			photography: allMarkdownRemark(
-				filter: { fileAbsolutePath: {regex : "\/photography/"} }
-			) {
-        		edges {
-          			node {
-						frontmatter{
-							template
-						}
-            			fields {
-              				slug
-            			}
-          			}
-        		}
-      		}
 			basepages: allMarkdownRemark(
 				filter: { fileAbsolutePath: {regex : "\/basepages/"} }
 			) {
@@ -119,22 +105,6 @@ exports.createPages = ({ graphql, actions }) => {
 			})
 		  })
 		  
-		const PhotographyItems = result.data.photography.edges
-	  	const PhotographyItemsPerPage = result.data.limitPost.siteMetadata.photographyItemsPerPage;
-	  	const numPhotographyItems = Math.ceil(PhotographyItems.length / PhotographyItemsPerPage)
-
-		Array.from({ length: numPhotographyItems }).forEach((_, i) => {
-			createPage({
-		  		path: i === 0 ? `/photography` : `/photography/${i + 1}`,
-		  		component: path.resolve("./src/templates/photography-list.js"),
-		  		context: {
-					limit: blogPostsPerPage,
-					skip: i * blogPostsPerPage,
-					numPages: numPhotographyItems,
-					currentPage: i + 1,
-		  		},
-			})
-	  	})
 
 		result.data.blog.edges.forEach(({ node }) => {
 			let template = node.frontmatter.template === undefined ? "blog" : node.frontmatter.template;
@@ -157,17 +127,6 @@ exports.createPages = ({ graphql, actions }) => {
 		        },
 	      	})
 		})
-		
-		result.data.photography.edges.forEach(({ node }) => {
-			let template = node.frontmatter.template === undefined ? "photography" : node.frontmatter.template;
-	      	createPage({
-		        path: node.fields.slug,
-		        component: path.resolve("./src/templates/"+template+".js"),
-		        context: {
-		          	slug: node.fields.slug
-		        },
-	      	})
-    	})
 
 		result.data.basepages.edges.forEach(({node}) => {
 			let template = node.frontmatter.template === undefined ? "basepage" : node.frontmatter.template;
