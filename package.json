@@ -4,6 +4,9 @@
 	"version": "0.1.0",
 	"author": "Akshay <hi@akzhy.com>",
 	"dependencies": {
+		"bl": "^4.0.3",
+		"decompress": "^4.2.1",
+		"dot-prop": "^5.2.0",
 		"gatsby": "^2.20.12",
 		"gatsby-custom-md": "^1.0.1",
 		"gatsby-image": "^2.2.3",
@@ -19,6 +22,7 @@
 		"gatsby-transformer-sharp": "^2.2.0",
 		"jpeg-js": "^0.4.1",
 		"less": "^3.9.0",
+		"lodash.mergewith": "^4.6.2",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
