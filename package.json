@@ -20,15 +20,19 @@
 		"gatsby-source-filesystem": "^2.2.2",
 		"gatsby-transformer-remark": "^2.5.0",
 		"gatsby-transformer-sharp": "^2.2.0",
+		"http-proxy": "^1.18.1",
 		"jpeg-js": "^0.4.1",
 		"less": "^3.9.0",
 		"lodash.mergewith": "^4.6.2",
+		"node-fetch": "^2.6.1",
+		"node-forge": "^0.10.0",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"react-helmet": "^5.2.1",
 		"react-sidebar": "^3.0.2",
-		"serialize-javascript": "^4.0.0"
+		"serialize-javascript": "^4.0.0",
+		"yargs-parser": "^20.2.1"
 	},
 	"devDependencies": {
 		"prettier": "^1.18.2"
