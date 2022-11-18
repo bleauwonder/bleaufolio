@@ -7,7 +7,7 @@
 		"bl": "^4.0.3",
 		"decompress": "^4.2.1",
 		"dot-prop": "^5.2.0",
-		"gatsby": "^2.20.12",
+		"gatsby": "^2.32.13",
 		"gatsby-custom-md": "^1.0.1",
 		"gatsby-image": "^2.2.3",
 		"gatsby-plugin-less": "^2.1.0",
